@@ -1,0 +1,13 @@
+Source: maidez
+Section: Other
+Priority: optional
+Maintainer: Paul Clark <paul@sandtreader.com>
+Build-Depends: debhelper (>= 9)
+Rules-Requires-Root:no
+Standards-Version: 3.9.6
+
+Package: maidez
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: AI-driven code assistant
+

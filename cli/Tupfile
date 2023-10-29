@@ -1,0 +1,15 @@
+#===========================================================================
+# Tupfile for maidez CLI utility
+#
+# Copyright (c) 2023 Paul Clark
+#===========================================================================
+
+NAME     = maidez
+TYPE     = exe
+DEPENDS  = ot-llm
+
+PACKAGE  = $(NAME)
+VERSION  = 0.1.0
+REVISION = 1~dev1
+
+include_rules
